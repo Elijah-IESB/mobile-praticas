@@ -5,7 +5,7 @@ import DespesaSumario from './DespesaSumario';
 function DespesaSaida({ despesas }) {
   return (
     <View>
-      <DespesaSumario despesas={despesas} periodo="Total" />
+      {/* <DespesaSumario despesas={despesas} periodo="Total" /> */}
       <DespesaLista despesas={despesas} />
     </View>
   );

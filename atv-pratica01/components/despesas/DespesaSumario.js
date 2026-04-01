@@ -5,8 +5,8 @@ function DespesaSumario({ despesas, periodo }) {
 
   return (
     <View>
-      <Text>{periodo}</Text>
-      <Text>R$ {total.toFixed(2)}</Text>
+      {/* <Text>{periodo}</Text> */}
+      {/* <Text>R$ {total.toFixed(2)}</Text> */}
     </View>
   );
 }
